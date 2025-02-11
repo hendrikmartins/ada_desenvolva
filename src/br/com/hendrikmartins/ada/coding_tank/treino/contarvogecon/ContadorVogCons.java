@@ -12,7 +12,7 @@ public class ContadorVogCons {
         int vogais = 0;
         int consoantes = 0;
 
-        texto = texto.toLowerCase(); // Converte para minúsculas para simplificar a comparação
+        texto = texto.toLowerCase();
 
         for (int i = 0; i < texto.length(); i++) {
             char caractere = texto.charAt(i);
