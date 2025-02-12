@@ -1,6 +1,9 @@
 # Desafio: Jogo da Forca em Java
 
-Neste desafio, você deverá implementar um jogo da forca simples em Java. O objetivo é criar um programa interativo em que o jogador tente adivinhar uma palavra secreta, letra por letra, dentro de um número limitado de tentativas.
+Neste desafio, você deverá implementar um jogo da forca simples em Java. 
+O objetivo é criar um programa interativo 
+em que o jogador tente adivinhar uma palavra secreta, 
+letra por letra, dentro de um número limitado de tentativas.
 
 ## Requisitos do Desafio
 
