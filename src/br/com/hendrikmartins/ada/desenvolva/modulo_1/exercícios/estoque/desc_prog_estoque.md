@@ -1,6 +1,7 @@
 # Problema: Criar e Atualizar Estoque
 
-Você foi contratado para desenvolver um sistema simples para gerenciar o inventário de uma loja. O sistema deve permitir ao usuário controlar a quantidade de um determinado produto em estoque.
+Você foi contratado para desenvolver um sistema simples para gerenciar o inventário de uma loja. 
+O sistema deve permitir ao usuário controlar a quantidade de um determinado produto em estoque.
 
 ## Funcionalidades
 
