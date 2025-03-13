@@ -1,20 +1,11 @@
-Exercício: Lista Genérica com Atributos
-Enunciado: Implemente a classe genérica MinhaLista<T> utilizando List<T> para armazenar elementos. Além da lista de itens, a classe deve ter um nome e uma data limite.
+Projete um sistema com as classes para carro, moto, barco, avião, pessoa e pato.
 
-Atributos:
-String nome: Nome da lista.
-LocalDate dataLimite: Data limite da lista.
-List<T> elementos: Lista para armazenar os elementos.
+Deve ser possível aplicar a ação de caminhar, mover, flutuar e voar para
+os objetos descritos. O comportamento de aumentar a velocidade também
+deve ser possível no sistema.
 
-Métodos:
-adicionar(T elemento) → Adiciona um elemento à lista.
-remover(T elemento) → Remove um elemento da lista.
-buscar(T elemento) → Retorna se o elemento está na lista.
-tamanho() → Retorna o número de elementos.
-limpar() → Remove todos os elementos.
-exibirLista() → Mostra o nome, a data limite e os elementos.
-estaExpirada() → Retorna se a lista expirou.
-renomear(String novoNome) → Altera o nome da lista.
-estenderDataLimite(int dias) → Prorroga a data limite.
-
-Dica: Use ArrayList<T> para a implementação da lista interna.
+Crie um sistema onde é possível criar um carro e uma motocicleta e coloca-lós
+em movimento.
+Ainda no mesmo sistema deve ser possível criar um avião e coloca-ló em voo.
+Barco, pato e pessoa podem flutuar.
+Pessoa e pato podem caminhar e flutua
