@@ -4,6 +4,7 @@ import java.text.SimpleDateFormat;
 import java.time.*;
 import java.util.Scanner;
 import java.time.format.DateTimeFormatter;
+import java.util.Timer;
 
 public class AppHora {
     public static void main(String[] args) {
@@ -36,8 +37,11 @@ public class AppHora {
         var horasTrabalhadas = horasTotal.toMinutes() - horaAlmoco.toMinutes();
         double resultado = horasTrabalhadas * valorMinuto;
 
+        Duration duracao = Duration.ofMinutes(horasTrabalhadas);
+        long horas = duracao.toHours();
+        long minutosRestantes = duracao.minusHours(horas).toMinutes();
 
-
+        System.out.println(horasTrabalhadas + " minutos equivalem a " + horas + " horas e " + minutosRestantes + " minutos.");
         System.out.println(horasTrabalhadas);
         System.out.println(resultado);
 //        System.out.println("Já se passaram " + horasTrabalhadas.toHours() + ":"
